@@ -124,7 +124,8 @@ import { MultipleAvatar } from "@/components";
 import { dayjs } from "@/dayjs";
 import { ref } from "vue";
 import { useUserStore } from "@/stores/user";
-import momentTimezone from "moment-timezone/builds/moment-timezone-with-data-10-year-range.min.js"; // Consider removing if not needed
+// import momentTimezone from "moment-timezone/builds/moment-timezone-with-data-10-year-range.min.js"; // Consider removing if not needed
+import momentTimezone from 'moment-timezone';
 
 const userStore = useUserStore();
 const UserDetails = userStore.users.data;
